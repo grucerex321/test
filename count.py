@@ -1,5 +1,11 @@
 #韓信點兵
 def count(x, y, z):
+   if x == 3:
+      x = 0
+   if y == 5:
+      y = 0
+   if z ==7:
+      z = 0
    for i in range(1, 106):
       if i % 3 == x:
          for j in range(1, 106):
