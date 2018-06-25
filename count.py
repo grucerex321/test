@@ -1,4 +1,4 @@
-
+#韓信點兵
 def count(x, y, z):
    for i in range(1, 106):
       if i % 3 == x:
